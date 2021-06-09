@@ -1,7 +1,7 @@
 {
-  "name": "bip-39-de",
-  "version": "5.0.1",
-  "description": "German BIP 39 Mnemonic List",
+  "name": "@nibyou/bip39",
+  "version": "1.0.0",
+  "description": "BIP 39 Mnemonic List",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
@@ -14,7 +14,9 @@
     "url": "https://github.com/nibyou/bip-39-de/issues"
   },
   "homepage": "https://github.com/nibyou/bip-39-de#readme",
-  "devDependencies": {
-    "@types/node": "^15.12.2"
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
