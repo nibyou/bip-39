@@ -1,6 +1,6 @@
 {
   "name": "@nibyou/bip39",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "BIP 39 Mnemonic List",
   "main": "index.js",
   "types": "index.d.ts",
