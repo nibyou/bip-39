@@ -1,0 +1,16 @@
+{
+  "name": "bip-39-de",
+  "version": "2.0.0",
+  "description": "German BIP 39 Mnemonic List",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nibyou/bip-39-de.git"
+  },
+  "author": "Nibyou <opensource@nibyou.com>",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/nibyou/bip-39-de/issues"
+  },
+  "homepage": "https://github.com/nibyou/bip-39-de#readme"
+}
