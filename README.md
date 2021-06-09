@@ -1,6 +1,10 @@
 # bip-39-de
+From the Bitcoin Improvement Proposal 39 (https://en.bitcoin.it/wiki/BIP_0039) (bitcoin/bips)
 
 German Mnemonic list, basically a collection of 2048 German nouns in an array.
+
+In Bitcoin, lists like these are used to generate IDs for Wallets that humans can more easily remember than just a bunch of numbers.
+At Nibyou, we use the BIP-39 representation of random bytes to generate recovery passwords in human readable form (example below)
 
 # Installation
 Install the package with `npm`
