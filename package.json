@@ -1,6 +1,6 @@
 {
   "name": "bip-39-de",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "German BIP 39 Mnemonic List",
   "main": "index.js",
   "types": "index.d.ts",
