@@ -15,7 +15,9 @@
   },
   "homepage": "https://github.com/nibyou/bip-39-de#readme",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^15.12.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
