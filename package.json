@@ -1,19 +1,19 @@
 {
   "name": "@nibyou/bip39",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "BIP 39 Mnemonic List",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nibyou/bip-39-de.git"
+    "url": "git+https://github.com/nibyou/bip-39.git"
   },
   "author": "Nibyou <opensource@nibyou.com>",
   "license": "CC-BY-SA-4.0",
   "bugs": {
-    "url": "https://github.com/nibyou/bip-39-de/issues"
+    "url": "https://github.com/nibyou/bip-39/issues"
   },
-  "homepage": "https://github.com/nibyou/bip-39-de#readme",
+  "homepage": "https://github.com/nibyou/bip-39#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^15.12.2"

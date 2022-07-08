@@ -39,12 +39,11 @@ const bip39 = require("@nibyou/bip39");
 import bip39 from "@nibyou/bip39"
 ```
 
-And finally, access the array inside:
+And finally, generate the mnemonic:
 
 ```javascript
-let code = [0x7ff, 0x034, 0x2d1, 0x607, 0x08b, 0x1cc]
-let mnemonic = code.map(hex => bip39.de_DE[hex])
-// => [ 'zylinder', 'altertum', 'gitarre', 'roggen', 'asteroid', 'eiszeit' ]
+let mnemonic = bip39.generateMnemonic(bip39.LANGUAGES.de_DE, 6, '-');
+// => 'zylinder-altertum-gitarre-roggen-asteroid-eiszeit'
 ```
 
 # License
