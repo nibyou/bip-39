@@ -28,6 +28,13 @@ Install the package with `npm`
 $ npm i --save @nibyou/bip39
 ```
 
+or with `yarn`
+
+```
+$ yarn add @nibyou/bip39
+```
+
+Note that the `generateMnemonic()` function only works in browser contexts (i.e. where `window.crypto.getRandomValues()` is available).
 
 # Usage
 
