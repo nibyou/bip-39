@@ -49,7 +49,7 @@ exports.LANGUAGES = {
 function generateMnemonic(language, wordCount, separator = " ") {
     const randArr = new Array(wordCount)
         .fill(0)
-        .map(() => exports.LANGUAGES[language][getRandomInt(0, exports.LANGUAGES[language].length - 1)]);
+        .map(() => exports.LANGUAGES[language][getRandomInt(0, 2047)]);
     return randArr.join(separator);
 }
 exports.generateMnemonic = generateMnemonic;
